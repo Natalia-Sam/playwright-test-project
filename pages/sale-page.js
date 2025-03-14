@@ -1,5 +1,5 @@
-export default class SalePage{
+export default class SalePage {
     constructor(page) {
         this.page = page;
-    };
-};
+    }
+}
