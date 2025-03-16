@@ -1,4 +1,4 @@
-import { test } from '../fixtures';
+import { test } from '../../fixtures';
 
 const email = 'mytest.111888@gmail.com';
 const password = 'TestPass123';

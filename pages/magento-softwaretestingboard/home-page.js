@@ -18,7 +18,6 @@ export default class HomePage {
     // };
 
     async searchByItems(item) {
-        console.log(this.searchInput);
         await this.searchInput.fill(item);
     }
 
@@ -27,3 +26,10 @@ export default class HomePage {
         allItemsInSearchResult[0].click();
     }
 }
+
+/**
+ * Move to Typescript
+ * Start to use locators defined by playwright
+ * Start to use css
+ *  .class #id     [type='text'] - attribute
+ */

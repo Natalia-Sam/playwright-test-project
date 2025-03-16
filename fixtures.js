@@ -1,8 +1,8 @@
 import { test as base } from '@playwright/test';
-import HomePage from './pages/home-page';
-import SalePage from './pages/sale-page';
-import SignInPage from './pages/sigin-page';
-import GoodPage from './pages/good-page';
+import HomePage from './pages/magento-softwaretestingboard/home-page';
+import SalePage from './pages/magento-softwaretestingboard/sale-page';
+import SignInPage from './pages/magento-softwaretestingboard/sigin-page';
+import GoodPage from './pages/magento-softwaretestingboard/good-page';
 
 export const test = base.extend({
     /** @type { HomePage } */
@@ -10,7 +10,7 @@ export const test = base.extend({
         await use(new HomePage(page));
     },
 
-    /** @type { SigninPage } */
+    /** @type { SignInPage } */
     signinPage: async ({ page }, use) => {
         await use(new SignInPage(page));
     },
